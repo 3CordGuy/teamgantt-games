@@ -5,13 +5,21 @@
 	import Key from './keyboard.svelte';
 	import RightArrow from './right-arrow.svelte';
 	import LeftArrow from './left-arrow.svelte';
+
+	type Game = 'gantt-runner' | 'diver';
+
 	export let currentGame = 'gantt-runner';
+	export let onGameChange = (fn: any) => {
+		fn(currentGame);
+	};
 
 	function cycleGames() {
 		if (currentGame === 'gantt-runner') {
 			currentGame = 'diver';
+			onGameChange('diver');
 		} else if (currentGame === 'diver') {
 			currentGame = 'gantt-runner';
+			onGameChange('gantt-runner');
 		}
 	}
 </script>

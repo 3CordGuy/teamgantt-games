@@ -45,6 +45,7 @@
 			<div class="w-full grow flex justify-center items-center">
 				<GameSelector
 					class="mt-20 md:mt-10 z-10 backdrop-blur-xl rounded-lg shadow-lg"
+					onGameChange={setCurrentGame}
 					{currentGame}
 				/>
 			</div>
