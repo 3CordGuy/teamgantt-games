@@ -21,7 +21,7 @@
 
 <div class="flex flex-col w-full h-full bg-focus">
 	<div
-		class="h-[192px] bg-gradient-to-r from-semantic-interactive-600 to-accent-purple-600 flex items-center px-20 border-b-4 border-solid border-neutral-200"
+		class="h-[192px] min-h-[180px] bg-gradient-to-r from-semantic-interactive-600 to-accent-purple-600 flex items-center px-20 border-b-4 border-solid border-neutral-200"
 	>
 		<div class="flex flex-col px-20 justify-center items-start justify-around w-full">
 			<h2 class="font-serif text-xl text-semantic-interactive-300">Welcome to</h2>
