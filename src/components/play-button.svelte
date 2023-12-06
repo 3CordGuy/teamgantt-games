@@ -3,7 +3,7 @@
 </script>
 
 <a
-	class="bg-semantic-interactive-600 hover:bg-semantic-interactive-700 items-center gap-8 tgds-color-text-inverse font-serif px-8 py-4 no-underline rounded-md inline-flex w-[180px]"
+	class="bg-semantic-interactive-600 hover:bg-semantic-interactive-700 justify-center items-center gap-8 tgds-color-text-inverse font-serif px-12 py-4 no-underline rounded-md inline-flex"
 	{href}
 >
 	Play Now

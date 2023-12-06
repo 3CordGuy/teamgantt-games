@@ -53,7 +53,8 @@ export default {
 				current: 'currentColor'
 			},
 			fontFamily: {
-				serif: ["'Press Start 2P'", 'serif']
+				serif: ["'Press Start 2P'", 'serif'],
+				sans: ['"Inter"', 'sans-serif']
 			},
 			keyframes: {
 				'pulse-once': {

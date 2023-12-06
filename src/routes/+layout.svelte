@@ -1,6 +1,6 @@
 <script>
 	import '../app.css';
-	export const prerender = true;
+	// export const prerender = true;
 </script>
 
 <div class="w-full h-full flex">

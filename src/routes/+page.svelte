@@ -29,18 +29,22 @@
 	<div class="flex flex-col w-full grow bg-semantic-danger-100 items-end">
 		<div class="flex flex-col grow w-full self-end relative wallpaper">
 			<div class="flex justify-around w-full -mt-24">
-				<button class="font-serif py-10 px-24" on:click={() => setCurrentGame('gantt-runner')}
-					>Super Gantt Runner</button
+				<button
+					class="font-serif py-10 px-24 cursor-pointer"
+					on:click={() => (window.location.href = '//sgr.teamgantt.games')}
+					on:mouseenter={() => setCurrentGame('gantt-runner')}>Super Gantt Runner</button
 				>
-				<button class="font-serif py-10 px-24" on:click={() => setCurrentGame('diver')}
-					>Super Duper Diver</button
+				<button
+					class="font-serif py-10 px-24 cursor-pointer"
+					on:click={() => (window.location.href = '//diver.teamgantt.games')}
+					on:mouseenter={() => setCurrentGame('diver')}>Super Duper Diver</button
 				>
 			</div>
 			<Shelf class="absolute bottom-[110px]  md:bottom-[184px] scale-90 -mb-48" />
 
 			<div class="w-full grow flex justify-center items-center">
 				<GameSelector
-					class="mx-20 mt-20 md:mt-10 z-10 backdrop-blur rounded-lg shadow-lg"
+					class="mt-20 md:mt-10 z-10 backdrop-blur-xl rounded-lg shadow-lg"
 					{currentGame}
 				/>
 			</div>
