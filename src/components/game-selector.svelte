@@ -28,11 +28,12 @@
 	<div class="flex items-center text-white justify-center w-32">
 		<button
 			on:click={cycleGames}
-			class="grow stretch h-full bg-transparent border-0 text-white hover:bg-neutral-800 cursor-pointer flex text-center items-center justify-center"
+			class="grow bg-neutral-800 stretch h-full border-0 text-white hover:bg-neutral-800 cursor-pointer flex text-center items-center justify-center"
 			><LeftArrow class="h-full text-white" /></button
 		>
 	</div>
-	<div class="h-[326px] flex items-center">
+	<div class="h-[326px] flex-col flex items-center">
+		<div class="text-accent-purple-200 font-sans uppercase text-4xs mt-12">Select a game</div>
 		{#if currentGame === 'gantt-runner'}
 			<div class="flex md:w-[500px] gap-12 py-8 items-center">
 				<div class="background-opacity-20 flex flex-col grow justify-between self-stretch gap-10">
@@ -92,7 +93,7 @@
 	<div class="flex items-center text-white justify-center w-32">
 		<button
 			on:click={cycleGames}
-			class="grow stretch h-full bg-transparent border-0 text-white hover:bg-neutral-800 cursor-pointer flex items-center justify-center"
+			class="grow bg-neutral-800 stretch h-full border-0 text-white hover:bg-neutral-800 cursor-pointer flex items-center justify-center"
 			><RightArrow class="h-full text-white" /></button
 		>
 	</div>
