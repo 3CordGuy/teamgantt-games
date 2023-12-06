@@ -1,15 +1,5 @@
-<svg
-	{...$$props}
-	xmlns="http://www.w3.org/2000/svg"
-	fill="none"
-	viewBox="0 0 24 24"
-	stroke-width="1.5"
-	stroke="#fff"
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" viewBox="0 0 256 256"
+	><path
+		d="M168.49,199.51a12,12,0,0,1-17,17l-80-80a12,12,0,0,1,0-17l80-80a12,12,0,0,1,17,17L97,128Z"
+	></path></svg
 >
-	<path
-		stroke-linecap="round"
-		fill="#fff"
-		stroke-linejoin="round"
-		d="M15.75 19.5L8.25 12l7.5-7.5"
-	/>
-</svg>
