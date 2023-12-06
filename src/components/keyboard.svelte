@@ -1,5 +1,5 @@
 <kbd
-	class="bg-neutral-600 key-shadow text-black font-bold rounded-sm px-4 py-2 border-1 border-solid border-neutral-500"
+	class="bg-neutral-600 key-shadow text-black font-bold shadow-inner rounded-sm px-6 py-2 border-1 border-solid border-neutral-500"
 	><slot /></kbd
 >
 
