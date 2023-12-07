@@ -71,7 +71,7 @@
 					<div class="relative bg-focus h-24 w-24"></div>
 				</TV>
 				<span class="font-serif text-4xs text-center"
-					>Copyright ® {new Date().getFullYear()} TeamGantt, LLC.<br />All Rights Reserved.</span
+					>Copyright ® {new Date().getFullYear()} TeamGantt.<br />All Rights Reserved.</span
 				>
 			</div>
 			<Floor />
